@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+:root {
+  --primary: #166ae8;
+}
+body {
+  height: vh;
+  width: vw;
+  padding: 0;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: #444;
+  background: RGB(37, 38, 38);
+  
+}
+
+
+.Sidebar{
+  width:200px;
+  height:100%;
+}
+
+a {
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  background: RGB(37, 38, 38);
+}
+.Sidebar{
+  margin-top: 100px;
+  position: fixed;
+}
+.sideandcomp{
+  display: grid;
+  grid-template-columns: 200px auto ;
+}
+
+.SidebarList{
+  justify-items: right;
+  height:100%; 
+}
+.SidebarList .row{
+  text-align: center;
+  margin: 0;
+  color: rgb(142, 147, 151);
+  font-weight: bold;
+  font-size: 15px;  
+  height: 20px;
+  margin-top: 15px;
+  padding-top: 7px; 
+  padding-bottom: 7px;
+  border-top-right-radius  : 20px;
+  border-bottom-right-radius: 20px;
+}
+.SidebarList .row:hover{
+  cursor: pointer;
+  color: rgb(51, 148, 204);
+}
+.SidebarList #active{
+  background-color: rgba(35, 65, 201, 0.479);
+}
+
+.line{
+  height:35px;
+  background-color: rgba(35, 65, 201, 0.479);
+  margin-bottom: 20px;
+  width:100%
+}
+.news{
+   margin-top: 110px;
+  margin-left: 220px;
+  
+}
